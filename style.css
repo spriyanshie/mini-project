@@ -1,0 +1,67 @@
+body {
+    font-family: Arial;
+    background-color: #fff5f5;
+    text-align: center;
+    
+    background-color: white;
+}
+
+
+
+h1 {
+    color: #ff4d4d;
+}
+
+p {
+    font-size: 18px;
+}
+header {
+    background: #ff4d4d;
+    padding: 15px;
+    color: white;
+}
+
+nav a {
+    color: rgb(46, 5, 30);
+    margin: 10px;
+    text-decoration: none;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid lab(53.23% 80.11 67.22);
+    padding: 20px;
+    margin: 10px;
+    width: 150px;
+}
+@media (max-width: 600px) {
+    .menu {
+        flex-direction: column;
+    }
+}
+.card img {
+    border-radius: 10px;
+}
+footer {
+  background: #ff4d4d;
+  color: rgb(39, 2, 2);
+  padding: 10px;
+  margin-top: 30px;
+}
+.card:hover {
+  background-color: oklab(60.849% 0.2149 0.11829);
+  transform: scale(1.05);
+}
+
+button:hover {
+  background-color: darkred;
+}
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 5px;
+  }
+}
